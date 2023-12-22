@@ -1,0 +1,144 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: 'Poppins', sans-serif;
+  box-sizing: border-box;
+}
+
+.container {
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: linear-gradient(45deg, #0a0a0a, #3a4452);
+  box-shadow: -5px -6px 15px #000;
+  outline: 1px solid #313131;
+  outline-offset: 3px;
+}
+
+
+
+
+
+.container form .display {
+  width: 400px;
+  height: 200px;
+  border-top-left-radius: 25px;
+  border-top-right-radius: 25px;
+  background: linear-gradient(to top, #333, #838383);
+  /* Dark grey gradient from bottom to top */
+  place-items: center;
+  display: flex;
+  justify-content: flex-end;
+  text-align: right;
+  flex: 1;
+
+}
+
+form .display input {
+  width: 400px;
+  height: 100px;
+  place-items: center;
+  display: flex;
+  flex: 1;
+  justify-content: flex-end;
+  text-align: right;
+  padding: 20px;
+  font-size: 80px;
+  box-shadow: none;
+  background: transparent;
+  text-shadow: none;
+
+}
+
+form #new {
+  color: #fff;
+}
+
+.container form .calc_body {
+  width: 400px;
+  height: 480px;
+  background: linear-gradient(45deg, #0a0a0a, #3a4452);
+
+  border-bottom-left-radius: 25px;
+  border-bottom-right-radius: 25px;
+}
+
+.container form .calc_body input {
+  margin-left: 80px;
+  border: 0;
+  outline: 0;
+  width: 75px;
+  height: 75px;
+  border-radius: 50%;
+  box-shadow: -8px -8px 15px rgba(255, 255, 255, 0.1), 5px 5px 15px rgba(0, 0, 0, 0.2);
+  background: transparent;
+  font-size: 20px;
+  color: #fff;
+  cursor: pointer;
+  margin: 10px;
+  background-color: #1a1713;
+  font-weight: 200px;
+  justify-content: center;
+  align-items: center;
+
+}
+
+.container form .calc_body input:hover {
+  box-shadow: 0 8px 12px rgba(0, 0, 0, 0.2);
+}
+
+#box1 {
+  margin: 10px;
+  background: transparent;
+  color: #fff;
+  font-size: 22px;
+  font-weight: 600;
+  border: 0;
+  border-radius: 50%;
+  box-shadow: -5px -6px 15px #000;
+  outline: 1px solid #313131;
+  outline-offset: 3px;
+  cursor: pointer;
+}
+
+#box1:active {
+  background: #000;
+  transform: translate(2px, 2px);
+}
+
+.calcu {
+  padding: 0px;
+  box-shadow: 0 0 15px #000;
+  border: 2px solid rgb(63, 63, 63);
+  border-radius: 25px;
+}
+
+#box2 {
+  color: #fbff00;
+  background: #1e1919;
+  font-weight: 700;
+  box-shadow: -5px -6px 15px #000;
+  outline: 1px solid #313131;
+  outline-offset: 3px;
+
+}
+
+#box2:active {
+  background: #000;
+  transform: translate(2px, 2px);
+}
+
+#box3 {
+  background: orangered;
+  font-weight: 900;
+  box-shadow: -5px -6px 15px #000;
+  outline: 1px solid #313131;
+  outline-offset: 3px;
+}
+
+#box3:active {
+  background: #000;
+  transform: translate(2px, 2px);
+}
